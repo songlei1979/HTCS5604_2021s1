@@ -1,6 +1,6 @@
-# from random import randint
-# # ask computer generate a number
-# myNum = randint(1,99)
+from random import randint
+# ask computer generate a number
+myNum = randint(1,99)
 # start a loop for 10 times
 i = 0
 while i <= 9: # set 10 times for guessing
