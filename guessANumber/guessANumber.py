@@ -1,4 +1,4 @@
-from guessANumber.library import generateANumber, stillHaveChance, win, isValidInput, tryTimesLeft, feedback
+from library import generateANumber, stillHaveChance, win, isValidInput, tryTimesLeft, feedback
 
 myNum = generateANumber()
 

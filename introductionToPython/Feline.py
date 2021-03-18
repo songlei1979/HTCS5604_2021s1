@@ -5,3 +5,6 @@ class Feline:
         self.eye = 2
         self.ear = 2
 
+    def bite(self):
+        return "people"
+
