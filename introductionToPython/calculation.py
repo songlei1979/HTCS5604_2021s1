@@ -14,8 +14,8 @@ def divide(num1, num2):
     if num2 == 0:
         return "number 2 cannot be 0"
     else:
-        num1 / num2
+        return num1 / num2
 
 
 def power(num1, num2):
-    return num1 ^ num2
+    return num1 ** num2
