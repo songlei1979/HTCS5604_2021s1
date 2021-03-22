@@ -18,7 +18,7 @@ def lessThan70000(cross_income):
     tax_range = calculation.subtract(cross_income, 48000)
     tax = calculation.multiply(tax_range, taxrate / 100)
     tax = tax + lessThan48000(48000)
-    tax = tax + lessThan14000(14000)
+    #tax = tax + lessThan14000(14000)
     return tax
 
 def lessThan180000(cross_income):
@@ -26,8 +26,8 @@ def lessThan180000(cross_income):
     tax_range = calculation.subtract(cross_income, 70000)
     tax = calculation.multiply(tax_range, taxrate / 100)
     tax = tax + lessThan70000(70000)
-    tax = tax + lessThan48000(48000)
-    tax = tax + lessThan14000(14000)
+    # tax = tax + lessThan48000(48000)
+    # tax = tax + lessThan14000(14000)
     return tax
 
 def overThan180000(cross_income):
@@ -35,9 +35,9 @@ def overThan180000(cross_income):
     tax_range = calculation.subtract(cross_income, 180000)
     tax = calculation.multiply(tax_range, taxrate / 100)
     tax = tax + lessThan180000(180000)
-    tax = tax + lessThan70000(70000)
-    tax = tax + lessThan48000(48000)
-    tax = tax + lessThan14000(14000)
+    # tax = tax + lessThan70000(70000)
+    # tax = tax + lessThan48000(48000)
+    # tax = tax + lessThan14000(14000)
     return tax
 
 def totalTax(cross_income):
